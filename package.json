@@ -1,0 +1,19 @@
+{
+  "name": "medical-labs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "fastify": "^4.26.0",
+    "@fastify/multipart": "^7.7.0",
+    "@fastify/cors": "^8.2.1",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
